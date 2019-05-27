@@ -1,5 +1,5 @@
 {
-  "name": "topo-sort",
+  "name": "@insysbio/topo-sort",
   "version": "1.0.1",
   "description": "Simple and fast implementation of topological sorting. No dependencies. A circular graph will throw an error with circular nodes info.",
   "main": "tsort.js",
