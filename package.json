@@ -1,6 +1,6 @@
 {
   "name": "topo-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and fast implementation of topological sorting. No dependencies. A circular graph will throw an error with circular nodes info.",
   "main": "tsort.js",
   "keywords": [
@@ -12,7 +12,7 @@
   "author": "liy <liy8272@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liy/topo-sort.git"
+    "url": "https://github.com/metelkin/topo-sort.git"
   },
   "license": "MIT"
 }

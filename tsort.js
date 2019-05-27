@@ -85,7 +85,9 @@ TopoSort.prototype.sort = function(){
         circular.push(node);
       }
     }
-    throw new Error('At least 1 circular dependency in nodes: \n\n' + circular.join('\n') + '\n\nGraph cannot be sorted!');
+    let error = new Error('At least 1 circular dependency in nodes: \n' + circular.join('\n') + '\nGraph cannot be sorted!');
+    error.circular = circular;
+    throw error;
   }
 
   return l;
